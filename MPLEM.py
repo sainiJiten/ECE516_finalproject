@@ -1,3 +1,21 @@
+"""
+Inputs:
+signal: time series vector
+I: list of randomly initialized chirplets
+I1: list of paramteres in the dictionary for tc,fc,c,dt
+P: number of chirplets in the signal
+sr: sampling rate
+ut: upper limit of time in the dictionary
+uf: upper limit of frequency in the dictionary
+uc: upper limit of chirp rate in the dictionary
+udt: upper limit of time interval in the dictionary
+
+returns:
+tc,fc,c,dt of all the chirplets
+
+"""
+
+
 import numpy as np
 import headers
 

@@ -3,6 +3,17 @@ Intuition behind this method is to create short window of time that will move ov
 the assumption is, within each time window, there is only one chirp and hence error = f(t) - ag, where 
 tc, dt will be fixed and fc and c will be randomly initialised. Iterations will be done until error is 
 minimum or zero.
+
+
+Inputs:
+signal, time window in sample space, sampling rate, alpha - learning rate
+
+
+
+Outputs:
+tc,fc,c,dt of all the chirplets in the signal
+
+
 """
 import numpy as np
 import headers
